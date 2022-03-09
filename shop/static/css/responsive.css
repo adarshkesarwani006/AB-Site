@@ -1,0 +1,69 @@
+@media screen and (max-width: 400px){
+
+.bcard{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+.hea>h2>u,
+.con>pre,.con>#dehati{
+    font-size: 1rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+.vi-container{
+    display: block;
+}
+
+.procontainer{
+    display: block;
+}
+
+.vidhi{
+    display: flex;
+    flex-direction: column;
+}
+
+.m,.c{
+    width: -webkit-fill-available;
+}
+
+.c{
+    height: auto;
+}
+.c>pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+.footn{
+    width: auto;
+    height: auto;
+}
+
+.footn>pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: left;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+    

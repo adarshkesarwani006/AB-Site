@@ -1,0 +1,148 @@
+{%load static%}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/shop/static/css/basecss.css">
+    <link rel="stylesheet" href="/shop/static/css/responsive.css">
+
+    <title> {%block title%} {%endblock title%} </title>
+</head>
+
+<body>
+    <header>
+        <div class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
+                <div class="container-fluid">
+                    <img src="/shop/static/img/logos/1.png" class="rounded-circle" alt="logo" width="50" height="50">
+                    <a class="navbar-brand mx-2" id="firm-titlefont" href="/">A.B SOLUTIONS</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/blog">Why Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" id="contactus" aria-current="page" href="/">Contact Us
+                                    <img src="/shop/static/img/logos/contact.png" class="rounded-circle" alt="logo"
+                                        width="32" height="32"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="con">
+            <pre>CONTACT ON +91-9838553227 FOR RATE ENQUIRY AND CONFIRM ORDER.</pre>
+        </div>
+        <div class="con">
+            <pre id="dehati">
+        WE ARE THE AUTHORISED DEALER OF DEHATI-TOKA PRODUCTS IN PRAYAGRAJ
+                CONTACT FOR DEHATI COW-MATS, MOTORS, AND OTHER PRODUCTS.</pre>
+        </div>
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-1 mx-auto flex flex-wrap">
+                <div class="flex w-full mb-5 flex-wrap">
+                    <div class="speci">
+                        <div class="b1">
+                            <p id="itemname"> {%block itemname%} {%endblock itemname%} </p>
+                        </div>
+                        <div class="b2">
+                            <p>
+                            <ul class="specification">
+                                <li class="item">{%block listitem1%} {%endblock listitem1%}</li>
+                                <li class="item">{%block listitem2%} {%endblock listitem2%}</li>
+                                <li class="item">{%block listitem3%} {%endblock listitem3%}</li>
+                                <li class="item">{%block listitem4%} {%endblock listitem4%}</li>
+                                <li class="item">{%block listitem5%} {%endblock listitem5%}</li>
+                                <li class="item">{%block listitem6%} {%endblock listitem6%}</li>
+                                <li class="item">{%block listitem7%} {%endblock listitem7%}</li>
+                                <li class="item">{%block listitem8%} {%endblock listitem8%}</li>
+                                <li class="item">{%block listitem9%} {%endblock listitem9%}</li>
+                                <li class="item">{%block listitem10%} {%endblock listitem10%}</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gcontainer">
+                    <div class="gimg">{%block img1%} {%endblock img1%}
+                    </div>
+                    <div class="gimg">{%block img2%} {%endblock img2%}</div>
+                    <div class="gimg">{%block img3%} {%endblock img3%}</div>
+                </div>
+                <div class="gcontainer">
+                    <div class="gimg">{%block img4%} {%endblock img4%}</div>
+                    <div class="gimg">{%block img5%} {%endblock img5%}</div>
+                    <div class="gimg">{%block img6%} {%endblock img6%}</div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <div class="con">
+            <pre>CONTACT ON +91-9838553227 FOR RATE ENQUIRY AND CONFIRM ORDER.</pre>
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot">
+            <div class="footn">
+                <pre>
+            <u>WORKING HOURS</u>
+            MONDAY...... 9:00a.m – 08:00p.m
+            TUESDAY..... 9:00a.m – 08:00p.m
+            WEDNESDAY... 9:00a.m – 08:00p.m
+            THURSDAY.... 9:00a.m – 08:00p.m
+            FRIDAY...... 9:00a.m – 08:00p.m
+            SATURDAY.... 9:00a.m – 08:00p.m
+            SUNDAY...... 9:00a.m – 08:00p.m</pre>
+            </div>
+            <div class="footn">
+                <pre>
+            <u>LOCATION:</u>
+            225/6D/1A 
+            Gohari Road
+            Shantipuram, Phaphamau,
+            Prayagraj, UttarPradesh
+            211013</pre>
+            </div>
+            <div class="footn">
+                <pre>
+            <u>CONTACT</u>
+            PHONE:+91 9838553227
+            E-MAIL: manasgupta0532@gmail.com
+            <u><a href="#" style="color: whitesmoke;">PRIVACY POLICY</a></u>
+          </pre>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
